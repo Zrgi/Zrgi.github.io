@@ -8,6 +8,6 @@ function userName() {
 
 function getUser() {
     var b = localStorage.getItem("uName");
-    document.getElementById('box').innerHTML = "Hello " + candy;
+    document.getElementById('box').innerHTML = "Hello " + b;
 }
 
