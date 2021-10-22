@@ -1,6 +1,6 @@
 function enterName() {
     var candy = document.getElementById('box').value;
-    localStorage.setItem('uName','candy');
+    localStorage.setItem('uName',candy);
     location.href = 'two.html';
 }
 
