@@ -6,6 +6,10 @@
           <p id="placeholder">this is a paragraph.</p>
         <script>
             getUser();
+            window.onload = function() {
+                var name = localStorage.getItem("uName");
+                window.alert("Hello " + name);
+            }
         </script>
     </body>
 </html>
